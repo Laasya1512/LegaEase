@@ -1,22 +1,64 @@
 # LegaEase
-Developed an innovative legal assistance platform featuring a Lawyer Recommendation System, intelligent chatbot, and Knowledge Hub. It also includes a Legal Document Generator for creating and downloading editable legal documents, reducing the effort for lawyers.
-#Running the project:
-1. cd /Users/laasyareddym/Desktop/Python
-2. source venv/bin/activate
-3. source venv/bin/activate
-4. streamlit run app.py
-5. hierarchy:
-    Main folder:     —— app.py
-    —— all pickle files
-    ——pages folder
-        |—— all the .py files
-6. pip install streamlit
-7. pip install --upgrade pip
-8. pip install pandas scikit-learn
-9. pip install streamlit streamlit-webrtc pydub
-10. pip install gtts pydub speechrecognition streamlit-webrtc11.  brew install ffmpeg
-12. brew install portaudio
-13. Check if PyAudio is installed
-14. pip install numpy pandas scikit-learn
-15. pip install streamlit python-docx
-16. To run in the terminal: streamlit run app.py
+
+**LegaEase** is an innovative legal assistance platform designed to streamline the legal process for both lawyers and clients. Key features include:
+
+- **Lawyer Recommendation System:** Connects users with suitable legal professionals based on their needs.
+- **Intelligent Chatbot:** Provides instant responses to user queries, improving accessibility to legal information.
+- **Knowledge Hub:** A repository of legal resources, articles, and FAQs.
+- **Legal Document Generator:** Allows users to create and download editable legal documents, significantly reducing the effort required by lawyers.
+
+## Running the Project
+
+To run the LegaEase project locally, follow these steps:
+
+1. Open your terminal and navigate to the project directory:
+   ```bash
+   cd /Users/laasyareddym/Desktop/Python
+   ```
+
+2. Activate your virtual environment:
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. Ensure all necessary packages are installed:
+   ```bash
+   pip install --upgrade pip
+   pip install streamlit pandas scikit-learn streamlit-webrtc pydub gtts speechrecognition python-docx
+   ```
+
+4. Install additional dependencies using Homebrew (if not already installed):
+   ```bash
+   brew install ffmpeg
+   brew install portaudio
+   ```
+
+5. Verify if `PyAudio` is installed. If not, install it:
+   ```bash
+   pip install pyaudio
+   ```
+
+6. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Project Structure
+
+The project directory should be organized as follows:
+
+```
+Main Folder:
+  ├── app.py
+  ├── all pickle files
+  └── pages folder
+      └── all the .py files
+```
+
+## Collaborator
+
+- **Kajal S Singh**  
+  [GitHub Profile](https://github.com/Kajal2607)
+
+Feel free to contribute or reach out for collaboration on this project!
+
